@@ -1084,13 +1084,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 70.0
     - Name: TopMargin
       Id: g=2bb468cfb5f2cdb278d7e4fde9210c35
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 540.0
+      Value: 400.0
   - Name: LinearGauge1
     Id: g=fb24fe7cb0115e0a18e82076f5ed69e7
     Type: Panel
@@ -2286,6 +2286,38 @@ Children:
          "highestIgnoredVersion": 0
         }
        }
+  - Name: LED1
+    Id: g=226134bd1e93511023788e941a2c1f1b
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=318257acc30cba7b77f8482348629c9f
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=e8be50be0b8a153a5adf046a5d688614
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=624dd80d4210586c0c666627bbadaacd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=fdef16a40c5cb3fd11b09d43d2934223
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 163.0
+    - Name: TopMargin
+      Id: g=dba40d6beae0edaf6a53d8314dd0f825
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 463.0
 - Name: Screen2
   Id: g=910d95ec8cb72238a3f26cad61cecd20
   Supertype: Screen
