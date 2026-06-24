@@ -2318,6 +2318,28 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 463.0
+  - Name: Button1
+    Id: g=e6c394537fd45f8d6ebc6577473efa42
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=79b8b6561e3cb3215998345afb8699af
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Button1"}
+    - Name: LeftMargin
+      Id: g=bae7062fb1247a5dd594c6191069d87f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 122.0
+    - Name: TopMargin
+      Id: g=c7e875fc4acefd463fd17db7e2a93783
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 564.0
 - Name: Screen2
   Id: g=910d95ec8cb72238a3f26cad61cecd20
   Supertype: Screen
