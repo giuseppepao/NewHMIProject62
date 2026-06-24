@@ -1,0 +1,83 @@
+Name: Translations
+Id: g=5b21237dc68c34e30e9443f95a0d7ccf
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=1bb30d3d196bcd0fa11a281fb9829ede
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [66,3],
+    "Body": [
+     "","en-US","it-IT",
+     "Save","Save","",
+     "RecipeControllerLegacyRecipe","Recipe","",
+     "Delete","Delete","",
+     "RecipeControllerLegacyDeleted","deleted","",
+     "Load","Load","",
+     "Apply","Apply","",
+     "RecipeControllerLegacyEmptyRecipeName","Recipe name is empty","",
+     "RecipeControllerLegacyCreatedAndSaved","created and saved","",
+     "RecipeControllerLegacyRecipeLoaded","Recipe loaded","",
+     "RecipeControllerLegacyRecipeApplied","Recipe applied","",
+     "RecipeControllerLegacySaved","saved","",
+     "RecipesEditorLegacyRecipeSchemaNotFound","RecipeSchema variable not found","",
+     "RecipesEditorLegacyRecipeSchemaNotSet","RecipeSchema not set","",
+     "RecipesEditorLegacyRecipeNotFound","Recipe not found","",
+     "RecipesEditorLegacyNotARecipe","is not a recipe","",
+     "RecipesEditorLegacyNotFound","not found","",
+     "RecipesEditorLegacyStoreOfSchema","Store of schema","",
+     "RecipesEditorLegacyNotSet","is not set","",
+     "RecipesEditorLegacyStore","Store","",
+     "RecipesEditorLegacyNotAStore","is not a store","",
+     "RecipesEditorLegacyEditModelOfSchema","EditModel of schema","",
+     "ApplicationFolder","Application folder","",
+     "ProjectFolder","Project folder","",
+     "Filename","File name","",
+     "Size","Size","",
+     "Timestamp","Timestamp","Timestamp",
+     "TimedShelve","Timed Shelve","",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Active","Active","Attivo",
+     "Confirm","Confirm","",
+     "OneShotShelve","One-Shot Shelve","",
+     "Confirm All","Confirm All","",
+     "Name","Name","Nome",
+     "SourceName","Source Variable","Variabile sorgente",
+     "Message","Message","Messaggio",
+     "Acked","Acked","Riconosciuto",
+     "Confirmed","Confirmed","Confermato",
+     "Severity","Severity","Gravità",
+     "ciao come stai","hello how r u","ciao come stai",
+     "Old password","Old password","Vecchia password",
+     "LoginFormPasswordExpired","Password expired","Password scaduta",
+     "Login","Login","Login",
+     "New password","New password","Nuova password",
+     "Password","Password","Password",
+     "Confirm password","Confirm password","Conferma password",
+     "Change password","Change password","Cambia password",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","Password scaduta.\nImmetterne una nuova.",
+     "Current User:","Current User:","Utente corrente:",
+     "Logout","Logout","Logout",
+     "ChangePasswordFormSuccessMessage","Password changed successfully","Password cambiata con successo",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password","Vecchia password errata",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used","Password già utilizzata",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently","Password cambiata troppo recentemente",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short","Password troppo corta",
+     "ChangePasswordFormUserNotFoundMessage","User not found","Utente non trovato",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation","Operazione non supportata",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","Le password non coincidono",
+     "LoginFormLoginSuccessful","Login successful","Login riuscito",
+     "LoginFormAuthenticationFailed","Authentication failed","Autenticazione fallita",
+     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user","Modalità di autenticazione non valida per l'utente",
+     "hello","hello","CIAO",
+     "Connected to Station:","Connected to Station:","Connesso alla stazione:",
+     "Machine","Machine","",
+     "Overall","Overall",""
+    ]
+   }

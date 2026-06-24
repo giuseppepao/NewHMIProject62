@@ -1,0 +1,30 @@
+Name: 'OPC-UA'
+Id: g=0959783fe058280d7c4f217e1a2560ba
+Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Id: g=fd128b1d7a0662b7f0e3d395f5f84fe9
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=df18296115182f7879afa464c57bb037
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Id: g=3302e1a68d09f08e539f2b373e29aeab
+    Type: BaseObjectType
+  - Name: MinimumMessageSecurityMode
+    Id: g=1b60edae1717f0195404b31ab273f719
+    Type: PropertyType
+    DataType: ns=29;MessageSecurityModeEnum
+  - Name: MinimumSecurityPolicy
+    Id: g=9d112961588fed7d5ad77fd0792e1e4d
+    Type: PropertyType
+    DataType: ns=29;SecurityPolicyEnum
+  - Name: CertificateIsExpired
+    Id: g=86791ee11b9fe4a8684bf3ba4261fb81
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- File: OPCUAClient1/OPCUAClient1.yaml

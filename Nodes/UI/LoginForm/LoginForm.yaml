@@ -1,0 +1,234 @@
+Name: LoginForm
+Id: g=c96b392735df4173980e0a4836d3fb20
+Type: FolderType
+Children:
+- Name: LoginForm
+  Id: g=d0fba00ff93f064d6e1cb546eea27209
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Id: g=2dc838803912d3d781dbff12b337e753
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=e0067b0501f6d324190cf5bd74390743
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: ConditionalConverter1
+      Id: g=cd3bce1b537af6e66c110c6a717f2594
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=b6117a0e70d9a9802c019a7cbab78989
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=7a4770736a4dbb53d9f741bb60ac91e4
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/LoggedIn"
+      - Name: TrueValue
+        Id: g=ec19c69d7ac375c5d30a5e687e53d3d8
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Logout"
+      - Name: FalseValue
+        Id: g=fbc9713a0ca0470f4bc6b6682504c861
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+        Children:
+        - Name: KeyValueConverter1
+          Id: g=ba0764ea4e9890a5cb5991e0a7625ec5
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Id: g=d850f4174cbe647ca8a2958ef28533b7
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=2e593b9720ba48f729503190eebc0027
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/NewHMIProject62/Authentication/AuthenticationMode"
+          - Name: ns=3;Pairs
+            Id: g=4bbc08a2b3eebaed75ec1bdaa2fd04cc
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Id: g=7b3b9e58c387f1b8799aaf2efc87a20c
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=f8a2ddee9a23e2d3b9284ef8f943b98c
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+              - Name: Value
+                Id: g=979e7c899dee7ad0441bbc497bdf9498
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair1
+              Id: g=e28f6fdcb1a7889662b31aa1d9464242
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=00a701921b2795c06266cd6bb7894fa7
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 1
+              - Name: Value
+                Id: g=13c68025d13173a7c68945203c5ee6c1
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair2
+              Id: g=9abd363b39a5cef8e8aeaefb051f430f
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=b7d3c3653b3661401638b3a6cdf40ca9
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 2
+              - Name: Value
+                Id: g=4012a70e5a85046bbc75dccfc6ccfbae
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair3
+              Id: g=e05a4889cbda3aedd9f0bc6c195434aa
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=ca1873987f920a0799468b39eb7154d7
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 3
+              - Name: Value
+                Id: g=d3a0d1bad4948d320c84e0af643ab47f
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair4
+              Id: g=387e533c97097391cd5550f33aa45ef2
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=b5e95f9112a9bd0e3a51fab167d758e3
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 4
+              - Name: Value
+                Id: g=601c7f992e12a1ba1776bec82676ebe0
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair5
+              Id: g=91387daa9662a06fef5722f891f9997b
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=6298def6e60b5c2cc7e6530825eac2bc
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 5
+              - Name: Value
+                Id: g=b528aaf37e43468acd9fc97024cf2caa
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/NewHMIProject62/UI/LoginForm/LoginFormComponents/OAuth2Login"
+  - Name: CurrentPanel
+    Id: g=dc586ece123253f298194f2fff00abb5
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Id: g=91a35fa3ee4d23f326806e2cdeb79dea
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+  - Class: Reference
+    Target: ns=5;i=478
+    Direction: Forward
+  - Name: Width
+    Id: g=d772273f9f20b2ec33a33accbbd62fc7
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Id: g=41b3c9da90e2aaf87acd6e858b0d58d6
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Users
+    Id: g=7e07d8ff8002caaaa1b0557874027965
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=f70b2b9c44635b8d8f9fce23c2c6fd2f
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: PanelAliasNode
+    Id: g=db75ed7b11393c644a26a7dc7e1f3b35
+    Type: BaseDataVariableType
+    DataType: NodeId
+    ValueRank: ScalarOrOneDimension
+    Children:
+    - Name: DynamicLink
+      Id: g=6f347afa83f0599607d688f6726b36c8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Users@NodeId"
+- File: LoginFormComponents/LoginFormComponents.yaml
+- Name: ns=11;LibraryReference
+  Id: g=e02fd8cb69eccb1ca4d3c3b23ae0ff76
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 11
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "64c3e1535979981f3ad5449b009a965c",
+     "objectVersion": 2,
+     "highestIgnoredVersion": 0
+    }
+   }

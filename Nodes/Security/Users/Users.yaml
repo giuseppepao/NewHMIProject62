@@ -1,0 +1,24 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=a3f988d928ee7cf1148e0f8dd33d5633
+  Type: UserType
+  Children:
+  - Name: Language
+    Id: g=d1681f855049e9ada96676b4b03a5973
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: User2
+  Id: g=449d230a267d406c1698bab52cce58c4
+  Type: UserType
+  Children:
+  - Name: Language
+    Id: g=7407534e9c0c1c80373ff174208c9002
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"

@@ -1,0 +1,91 @@
+Name: OPCUAClient1
+Id: g=0c73391bbb67da097bf38788272b910e
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Id: g=09dac8e773ba473bd321cd405f54933b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://localhost:59100"
+- Name: MinimumMessageSecurityMode
+  Id: g=8cce89731d03df2d601927885959f579
+  Type: BaseDataVariableType
+  DataType: ns=31;MessageSecurityModeEnum
+- Name: MinimumSecurityPolicy
+  Id: g=7720814c09efd54a33d92d27fd0e3c7c
+  Type: BaseDataVariableType
+  DataType: ns=31;SecurityPolicyEnum
+- Name: UserIdentityType
+  Id: g=85203eaa0dca8a9595866dbfe5c3891d
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+- Name: ConnectionStatus
+  Id: g=6ca99ef68f827dfe16fdbb8cb2e06144
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+- Name: ServerUri
+  Id: g=4c3a57b070317204ee8e71a803bab29b
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+- Name: Events
+  Id: g=1edb5b58ea85d9271433289ea5279de0
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 1
+- Name: RuntimeConfigurations
+  Id: g=6d22027db532d01df51d1741fc2690b0
+  Type: BaseObjectType
+  Children:
+  - Name: RuntimeConfiguration1
+    Id: g=6bd2cb7d35eb46ea0c7d2c1bdab2df0b
+    Type: RuntimeConfigurationEntry
+    Children:
+    - Name: LocalDestinationNode
+      Id: g=bc25f90d06e4558a855de1dad9827661
+      Type: BaseDataVariableType
+      DataType: NodeId
+    - Name: RemoteSourceNode
+      Id: g=74f3947ad35144b6e6fa7c9cbdb13c60
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: ContentSynchronizationMode
+      Id: g=9761a4d101a4832e47f192b4fee6f8da
+      Type: BaseDataVariableType
+      DataType: ContentSynchronizationModeEnum
+    - Name: IncludeRemoteSourceNode
+      Id: g=b84f5394305f579e225787707d1bd4f3
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: EventSynchronization
+      Id: g=01d6775274fdf7720be1d3b8b75d550b
+      Type: BaseDataVariableType
+      DataType: Boolean
+- Class: Reference
+  Target: ns=31;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=75
+  Direction: Forward

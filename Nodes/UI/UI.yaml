@@ -1,0 +1,531 @@
+Name: UI
+Id: g=3e473998a61811667d90c12b765d2dce
+Type: UICategoryFolder
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Id: g=60e107bbc9025a5f4b0a6f5c874ac200
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=5e037840ff8e483248120eeadf284341
+      Type: ButtonStyle
+    - Name: Accent
+      Id: g=589346439c42684a37a6492b6b694bf9
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=33e4a7d596ed81e028addd6d30eebaf7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Id: g=e640fd4ea80652439754da3ffbc3c139
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Id: g=661a71742c6a77dbb3b2b892be4d4d88
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Id: g=ce7352a1ea009577e238c12e877c3ce8
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=42f83f9ef76180b5e72043a9c28fc9a1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=dce280c3b44e238a8cfbfe7f585f4749
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=7948c36f99065840a16146b1bc95c10f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=46384f6ffce686098b1ce0bfcb57c3b5
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Id: g=342b7efa22cf897e6dc23ea53e3c28a8
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=c71793e2f987e2e61b4e6bc43fa445af
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=8f167caa884c390ef40255013df19333
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=a3953bbe430e78a70e15a5a908315e35
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=2617864f3ed253cac14736c0d51c4866
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=3226351c396b98e38519b2b0051de490
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Id: g=850533ab4b5fa578fe27f9b70c50c1b8
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=51c3f1ee274380cda70cf8394efb2640
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Id: g=39bedc5c08fafe266b0938229ebef6a0
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=8b409a3dceae07e083bb9a4e980aa21e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Id: g=e08f3192c42a2cc7d6bb227a99490f4b
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=a98e0d304b2f798b09ac50a066ee55b7
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Id: g=fa3d7ce3e75cdb0a2cb9b40539ff621d
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=d5733ba24675ac94a0a18a9686d69aab
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Id: g=0174f0540851e6f1341adc06ecd36a8d
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderWidth
+        Id: g=538b70ac357ff8419643a48c436227c0
+        Type: BaseDataVariableType
+        DataType: Size
+  - Name: InputBoxStyles
+    Id: g=9f03035ea7e306d9b713ecfddf09d7f1
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=88f98e7fcbaa3075e24de34da6b9078e
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Id: g=89c6c7ac1e31a9608f079d542a38bceb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=91c9dbba3c1817c3349cb4c642a06c6b
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Id: g=56a4695a5e7b0f3e3fe07a2924d31aa9
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=8da3f1ae724fce9da96424abbf7952e3
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Id: g=2a490a35ecb309222628f7dfb58ba31c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=1260d2a1c34ea694c92cf45cb8bbd4ba
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Id: g=e22246d0f17a4d5f111481c738802e2f
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=998b6138328efe84f37980abd1c4ca8f
+      Type: ChartStyle
+  - Name: DataListStyles
+    Id: g=6aad7ffe981e0bc88f588714693ad94f
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=81ce0c2f0e32b98ad9c72343261dd4cb
+      Type: DataListStyle
+    - Name: DataListStyle1
+      Id: g=cb05fa1ff4b326cb04e8f564e724c6f0
+      Type: DataListStyle
+      Children:
+      - Name: BackgroundColor
+        Id: g=054d866dad8725c1f4c91350ca6fb6e6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: HeaderBackgroundColor
+        Id: g=085afb74841e6cac05f8fbb58e69c352
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00fffc"
+  - Name: ToolTipStyles
+    Id: g=7c99ee6dfebcf1bb2d085307ee7d8d4d
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e078ebeabbd947e336692a8df3d1624b
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Id: g=9db50368bf0f00edf01219ee47a4b108
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=d8ba892273f7be9670dedec349609a4d
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Id: g=aee27e5ad8ae7ac1ac6570da4bbd0f5e
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=843a310483cf437020dc2cd7e60df600
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Id: g=21cf0750e2fa095cac0f00ca2e0ecf93
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=c226b80eac1c4c8a97fc31eb581e1017
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Id: g=b7114297d54aace440f063e0a1018d94
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e131e26281128c2b288b2d5b16d5a401
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Id: g=e41b5f7544942e410bd17eed6ddf683c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=47b349f80af08bf31bedcebc3b13ddfc
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Id: g=fca0633c51e464a0dc5c67cb5da658eb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=56dfb57883978aa69cba0f3139e30287
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Id: g=2e5167c2ec15b8adec5dab0aa7dc1e6c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=98f9a8d3c7fafd3b7c86de88f32c713d
+      Type: CheckBoxStyle
+  - Name: RectangleStyles
+    Id: g=3ba620a1abb66086671eb2d0b2a5ff70
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=f979c76f1dd418db3a3ca2218f301159
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=9daa15275a3840127ae2441d54c8b242
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=20d3d44b495c8d5b9cb66dcd236cff31
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=8558464d9adef8ef71bf1a5a8971ccda
+      Type: ScreenStyle
+- Name: NativePresentationEngine
+  Id: g=eb4252bf9070412285c0e1fe72b6d059
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: VirtualKeyboard
+    Id: g=4f47baa954b0853b59b47ab9ed79b130
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum
+  - Name: StartWindow
+    Id: g=4b2185c03e900c2fa54259a33e863f57
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject62/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=fe70d6d6ce8d2d8b03648e843997afbf
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=f15b7a989f43ee70aa5b212353186e4b
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject62/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=860fe883a9c09cde6f10b9c802a19925
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=162eaf1e1002dbd802060902ce31cd08
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=8dd5d18da7906399c89de1398442d9b2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=64e2e36b1947739ef40a8ca8cfb4f8c4
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=1064c6c4370409d7d7d0cbea973db0d5
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1280.0
+  - Name: Height
+    Id: g=e0a15b8df10e70951396a9947bc274ac
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 800.0
+  - Name: Caption
+    Id: g=49e88faf7c657bebc6bf58c55e768637
+    Type: BaseDataVariableType
+    DataType: String
+    Children:
+    - Name: DynamicLink
+      Id: g=de527854e8ed47dc61cb416a316f5af9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/NewHMIProject62@BrowseName"
+  - Name: NavigationPanel1
+    Id: g=3a756d14caea62353053b403e0650dd6
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Id: g=ad91432f3e3fadc53af24f6c5535c8ea
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Id: g=f321c1f177ce6902395f516363a44044
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=a11135347eecd777affe4ce713e6de16
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=f221d2edd8354bd927bf00d562d4ec03
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject62/UI/Screens/Screen1"
+          Children:
+          - Name: Kind
+            Id: g=b7b85f1ff3c143ab4112493fc121a2d3
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Id: g=3ce9978619d98072529003d64c4ae36e
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=ee870a4d7d374d3127969905c95c65c3
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=2258a4b453f5314257e39bbbe821d069
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject62/UI/Screens/Screen2"
+          Children:
+          - Name: Kind
+            Id: g=3617b21db9a6f9304cfb919e818f223f
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel3
+        Id: g=1f854aa1f8e1f8f83a3c5fbc75c32f02
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=956dae0cc91218b62dbd765b0964ce14
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=d58c1688ca86113610a481ab18c48f6a
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject62/UI/Screens/Screen3"
+          Children:
+          - Name: Kind
+            Id: g=5c14dd570c3bd56d5eb888b3f74c621a
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel4
+        Id: g=533389782cb3db0eefd6c2662b9c402d
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=40b712faaea586a457b59451c3c3096b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=765857bc3883af8575fd4eb7503eca64
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject62/UI/Screens/Screen4"
+          Children:
+          - Name: Kind
+            Id: g=7fba28874bb0c85e80d83623a8311475
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Id: g=73b0eedbcbd8201727c5af69213c3ace
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=4b536fb31bdc91be1b6c5aea2f52e822
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=4157fa2d0b8849f5df936b05da83af87
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject62/UI/Screens/Screen5"
+          Children:
+          - Name: Kind
+            Id: g=a07de9d3a26cf376417aadbb3fed1d35
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Id: g=00f39f733e3f82d10014b9b2962796a9
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Id: g=f0e6a1e336ea9f36d7ca89d79381d314
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Id: g=cce541990f0aa54959b6a5fc4e0fb415
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Class: Reference
+      Target: ns=5;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=5;i=1183
+      Direction: Forward
+    - Name: Width
+      Id: g=62c11166332cb8b7f86c5b3f043a43a5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=ef51079a1649601d2ab452a898b8faa7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Id: g=bfbb7cfb849a42bc2cdb0a8e9d5b4378
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=e689e6361994f89a1507b7eec067d0ad
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Id: g=0f2d5ca368be930aaf83f7293ff8c587
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Appearance
+      Id: g=c83ccbee44cdfb6483c7652ccdc77231
+      Type: BaseVariableType
+      DataType: String
+      ModellingRule: Optional
+  - Name: Image1
+    Id: g=c2eaaffd1108405f42391703c5b2ba11
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=582786bad06f4fddfe64d3de13eda9ad
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=20;%PROJECTDIR%/logo_FTOptix_black.svg"
+    - Name: Width
+      Id: g=a3a92ad38c0f1ef70fa1445015f7e59f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 260.0
+    - Name: Height
+      Id: g=e0024bd533ad74adfb3659e4d790e6c8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=7d761ce8b266c444cde0384036542581
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+  - Name: RuntimeNetLogic3
+    Id: g=c680d1cd8e3aec066825d6eab051896e
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: leggiutente
+      Id: g=2b3e047ba58ccea364a29c71d53cce97
+- File: Screens/Screens.yaml
+- File: Keyboards/Keyboards.yaml
+- File: LoginForm/LoginForm.yaml

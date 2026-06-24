@@ -1,0 +1,108 @@
+Name: Model
+Id: g=923f1b8e2bc921b6269ceda26b74ed85
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=e3a471e485e497bddef4c54e7e14fca4
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=31448585234fda7e76485a51977ef268
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Id: g=383e8135a4a7046f79e331eda94fb577
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: varbool1
+  Id: g=528383c000ddfa1839dfb7ae31cbe50a
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: varbool2
+  Id: g=7d605631576ea48b6696e056aad5f894
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: varbool3
+  Id: g=9ec7dbc31c6b2dda26166d8ce565cabc
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable4
+  Id: g=e2efacb77afa5d5441e14a67cd3602b9
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: ricettaFake
+  Id: g=b4b7b16be7ea83e648953ca90429fc09
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable5
+  Id: g=cb9be64ef7e671fe6edc6660ff59f650
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: DesignTimeNetLogic1
+  Id: g=9891446e16c77982167e71096fde841c
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+    Id: g=889413ae682ecc846c99e1ecc943c4b2
+  - Name: BehaviourStartPriority
+    Id: g=82c5f7361fdb8925167de9341011b4ac
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: MyExportedMethod
+    Id: g=f2b1130c13f0a3c80151940b47eb71d8
+- Name: AnalogVariable1
+  Id: g=bc56f9568895e3618c3e7b043ba1dd78
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=cc341404a3be42c028db1fc4bed9630f
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=c38cc7d2b06b0fa73420d2c3a92f68da
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Id: g=246c6873fd3f549704762287935f1092
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Id: g=4bb7731661f6cf16babe13b349e40f29
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=9e13cc298c402a650300582625b6a801
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 5067595
+    - Name: DisplayName
+      Id: g=b9189b31c6dccf9818e4061108bb6d5d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=1408471b243e001e7b97c6ddf1059654
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- File: Folder1/Folder1.yaml
+- Name: Object1
+  Id: g=ad5feed75b4685ba77835421d853d2f9
+  Type: BaseObjectType
+  Children:
+  - Name: Object1
+    Id: g=65bf89ce1c49d176a290fe2278f3982c
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Id: g=8c75886a74132baedba07c22e54e8500
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Variable2
+      Id: g=68d7a97623763c85eb559400b0f8a541
+      Type: BaseDataVariableType
+      DataType: Int32

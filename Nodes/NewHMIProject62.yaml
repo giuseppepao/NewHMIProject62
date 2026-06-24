@@ -1,0 +1,85 @@
+Name: NewHMIProject62
+Id: g=07dd0b8a60ab7cbc9159c60090bfafbc
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=d3959ed51c3da59ef49be1d2cac20f24
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=d0598e0bb92739e0fa9d3793e8adea6d
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","it-IT"]
+  - Name: LocaleFallbackList
+    Id: g=07bda3c4970ee3adda71211dea6cc0e0
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=e1abb5b7d8d40925f3e4119046151e7b
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=3fc6f35d07f23a156bb9c94ef693f82b
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject62/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=1c6e82d2e10633f548e3268f29f5f842
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Id: g=5b4582f1985ea98d42551e16e5068f82
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
+    Value: 4
+- Name: PasswordPolicy
+  Id: g=d3c12215abd78fa72b449c926d024f47
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=4c67537fefc4c772209d01fd2a51bcda
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Id: g=421164eccb11b2221c16129c51f86c15
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=3c97acf1939452f678846090adae42ea
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Id: g=b13faf1c1af2f105985db08acd922950
+    Type: BaseDataVariableType
+    DataType: Byte
+- Name: AlarmConfiguration
+  Id: g=c7304231b8ff039c7e292ed8f18ccc09
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: MQTT/MQTT.yaml
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: RuntimeOptimization
+  Id: g=b0fd6debe2b82aec18b0c8c3fa548937
+  Type: PropertyGroup
